@@ -1,5 +1,5 @@
 function AddMonster() {
-	return <div>AddMonster</div>;
+	return <h1>Add Monster</h1>;
 }
 
 export default AddMonster;
