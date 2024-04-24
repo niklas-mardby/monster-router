@@ -6,6 +6,7 @@ import Monsters from "./Monsters";
 import Monster from "./Monster";
 import Root from "./Root";
 import AddMonster from "./AddMonster";
+import EditMonster from "./EditMonster";
 
 const router = createBrowserRouter([
 	{
@@ -24,6 +25,7 @@ const router = createBrowserRouter([
 				],
 			},
 			{ path: "/add", element: <AddMonster /> },
+			{ path: "/edit/:monsterId", element: <EditMonster /> },
 			{ path: "/", element: <Start /> },
 		],
 	},
